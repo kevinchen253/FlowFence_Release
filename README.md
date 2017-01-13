@@ -30,9 +30,10 @@ The oasis.service APK will be inside build/outputs/apk
 
 Install this apk manually to a device
 
-adb install -r <apk_name>
+adb install -r apk_name
 
 3. Start Android Studio and launch oasis.test
+MAKE SURE TO DISABLE INSTARUN!
 This will bring up a client config app where you can control various params like number of sandboxes etc.
 
 At this point, flowfence (oasis) is deployed and ready.
